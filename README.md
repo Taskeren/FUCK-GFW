@@ -1,36 +1,6 @@
 # FUCK-GFW
 I do not want waste time in GFW again.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**目录**
-
-- [pip](#pip)
-- [git](#git)
-- [cargo](#cargo)
-- [apt (apt-get)](#apt-apt-get)
-- [curl](#curl)
-- [Gradle](#gradle)
-- [Maven](#maven)
-- [go get](#go-get)
-- [npm](#npm)
-- [rustup](#rustup)
-- [yarn](#yarn)
-- [yarn2](#yarn2)
-- [gem](#gem)
-- [brew](#brew)
-- [wget](#wget)
-- [snap](#snap)
-- [docker](#docker)
-- [Electron Dev Dependency](#electron-dev-dependency)
-- [Visual Studio Code Remote (WSL2)](#visual-studio-code-remote-wsl2)
-- [Visual Studio Code Remote (SSH)](#visual-studio-code-remote-ssh)
-- [Tips](#tips)
-- [Scoop](#scoop)
-- [OpenWRT opkg](#openwrt-opkg)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## pip
 ~/.config/pip/pip.conf
 ```
