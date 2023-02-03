@@ -15,7 +15,7 @@ proxy=http://localhost:1087
 
 ### 参考
 
-<https://my.oschina.net/tangshi/blog/699190>
+https://my.oschina.net/tangshi/blog/699190
 
 ## Git
 
@@ -43,7 +43,7 @@ git config --global http.proxy http://127.0.0.1:1087
 
 ### 参考
 
-<https://gist.github.com/laispace/666dd7b27e9116faece6>
+https://gist.github.com/laispace/666dd7b27e9116faece6
 
 ## Cargo
 
@@ -77,7 +77,7 @@ Cargo 使用 libcurl，故可接受任何符合 [libcurl format](https://everyth
 
 ### 参考
 
-<https://doc.rust-lang.org/cargo/参考/config.html#httpproxy>
+https://doc.rust-lang.org/cargo/参考/config.html#httpproxy
 
 ## apt (apt-get)
 
@@ -92,7 +92,7 @@ Acquire::https::Proxy "http://127.0.0.1:8080/";
 
 ### 参考
 
-<https://askubuntu.com/a/349765/883355>
+https://askubuntu.com/a/349765/883355
 
 ## curl
 
@@ -104,13 +104,13 @@ socks5 = "127.0.0.1:1080"
 
 ### 参考
 
-<https://www.zhihu.com/question/31360766>
+https://www.zhihu.com/question/31360766
 
 ## Gradle
 
 在 `~/.gradle/gradle.properties` 中添加
 
-```
+```properties
 systemProp.http.proxyHost=127.0.0.1
 systemProp.http.proxyPort=1087
 systemProp.https.proxyHost=127.0.0.1
@@ -119,7 +119,7 @@ systemProp.https.proxyPort=1087
 
 ### 参考
 
-<https://stackoverflow.com/questions/5991194/gradle-proxy-configuration>
+https://stackoverflow.com/questions/5991194/gradle-proxy-configuration
 
 ## go get
 
@@ -144,8 +144,8 @@ npm config set https-proxy http://127.0.0.1:1087
 
 ### 参考
 
--   <https://stackoverflow.com/questions/7559648/is-there-a-way-to-make-npm-install-the-command-to-work-behind-proxy>
--   有些包要在 postinstall 阶段下载内容的还需要配置环境变量：<https://antfu.me/posts/npm-binary-mirrors>
+-   https://stackoverflow.com/questions/7559648/is-there-a-way-to-make-npm-install-the-command-to-work-behind-proxy
+-   有些包要在 postinstall 阶段下载内容的还需要配置环境变量：https://antfu.me/posts/npm-binary-mirrors
 
 ## rustup
 
@@ -164,7 +164,7 @@ yarn config set https-proxy http://127.0.0.1:1087
 
 ### 参考
 
-<https://github.com/yarnpkg/yarn/issues/3418>
+https://github.com/yarnpkg/yarn/issues/3418
 
 ## yarn2
 
@@ -210,7 +210,7 @@ http_proxy: http://localhost:1087
 
 ### 参考
 
--   Google
+Google
 
 ## Homebrew
 
@@ -230,7 +230,7 @@ https_proxy=127.0.0.1:1087
 
 ### 参考
 
--   https://stackoverflow.com/questions/11211705/how-to-set-proxy-for-wget
+https://stackoverflow.com/questions/11211705/how-to-set-proxy-for-wget
 
 ## snap
 
@@ -269,8 +269,8 @@ GLOBAL_AGENT_HTTPS_PROXY=http://localhost:1080
 
 ### 参考
 
--   <https://www.electronjs.org/docs/latest/tutorial/installation#proxies>
--   <https://github.com/gajus/global-agent/blob/v2.1.5/README.md#environment-variables>
+-   https://www.electronjs.org/docs/latest/tutorial/installation#proxies
+-   https://github.com/gajus/global-agent/blob/v2.1.5/README.md#environment-variables
 
 ## Visual Studio Code Remote (WSL2)
 
@@ -289,7 +289,7 @@ export all_proxy=$http_proxy
 
 ### 参考
 
--   <https://code.visualstudio.com/docs/remote/wsl>
+https://code.visualstudio.com/docs/remote/wsl
 
 ## Visual Studio Code Remote (SSH)
 
@@ -299,8 +299,8 @@ VSCode SSH 后的环境不会使用本地界面 VSCode 内的代理设置，如�
 
 需要手动下载 vscode 的 server 端传输部署。详情见链接
 
--   <https://stackoverflow.com/questions/56671520/how-can-i-install-vscode-server-in-linux-offline>
--   <https://gist.github.com/b01/0a16b6645ab7921b0910603dfb85e4fb>
+-   https://stackoverflow.com/questions/56671520/how-can-i-install-vscode-server-in-linux-offline
+-   https://gist.github.com/b01/0a16b6645ab7921b0910603dfb85e4fb
 
 ### SSH 主机在墙内
 
@@ -318,7 +318,7 @@ export all_proxy=$http_proxy
 
 ### 参考
 
--   <https://code.visualstudio.com/docs/remote/ssh>
+https://code.visualstudio.com/docs/remote/ssh
 
 <!--
 ## Tips
@@ -336,7 +336,7 @@ scoop config proxy 127.0.0.1:1080
 
 ### 参考
 
--   <https://github.com/ScoopInstaller/Scoop/wiki/Using-Scoop-behind-a-proxy#configuring-scoop-to-use-your-proxy>
+https://github.com/ScoopInstaller/Scoop/wiki/Using-Scoop-behind-a-proxy#configuring-scoop-to-use-your-proxy
 
 ## OpenWRT opkg
 
@@ -380,5 +380,5 @@ https://openwrt.org/docs/guide-user/additional-software/opkg
 
 ### 参考
 
--   <https://maven.apache.org/guides/mini/guide-proxies.html>
--   <https://stackoverflow.com/questions/1251192/how-do-i-use-maven-through-a-proxy>
+-   https://maven.apache.org/guides/mini/guide-proxies.html
+-   https://stackoverflow.com/questions/1251192/how-do-i-use-maven-through-a-proxy
