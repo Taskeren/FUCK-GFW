@@ -1,6 +1,12 @@
 # FUCK-GFW
 
-I do not want waste time in GFW again.
+> I do not want waste time in GFW again.
+
+为了避免愚蠢的防火长城浪费我们的时间，原作者和各位贡献者为你呈上 FUCK-GFW。
+
+## ⚡报告问题
+
+如果你发现某个部分对你不生效，或者有错误，可以在项目的 [Discussion](https://github.com/Taskeren/ForK-GFW/discussions) 里报告。
 
 ## pip
 
