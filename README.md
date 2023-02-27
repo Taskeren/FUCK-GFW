@@ -388,3 +388,18 @@ https://openwrt.org/docs/guide-user/additional-software/opkg
 
 -   https://maven.apache.org/guides/mini/guide-proxies.html
 -   https://stackoverflow.com/questions/1251192/how-do-i-use-maven-through-a-proxy
+
+## SSH with `connect`
+
+`~/.ssh/config`
+
+```
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+  User git
+  # 代理设置
+  ProxyCommand connect -H localhost:7890 %h %p
+```
+
+这个方式你需要在执行 SSH 的环境里有 connect 这个程序。你可以从 Git for Windows 里去获取一份（`C:\Program Files\Git\mingw64\bin`），复制到或者添加到 Path 环境变量里。
